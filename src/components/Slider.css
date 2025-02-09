@@ -1,0 +1,29 @@
+.carousel-inner img {
+    width: 100%; /* Make sure the image fits the carousel width */
+    height: 500px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Ensures images cover the container without stretching */
+}
+
+.carousel-container {
+    position: relative; /* Ensure proper positioning */
+    margin-top: 5px;
+}
+
+.carousel img {
+    width: 100%; /* Full width for consistent sizing */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Makes sure the image fills its container proportionally */
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px; /* Same as image height for proper alignment */
+}
+
+.carousel-item img {
+    max-height: 700px;
+    width: auto;
+    margin: auto;
+}
